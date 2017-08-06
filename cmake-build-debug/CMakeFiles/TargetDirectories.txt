@@ -1,0 +1,3 @@
+/home/luis/CLionProjects/Remote_Memory/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/luis/CLionProjects/Remote_Memory/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/luis/CLionProjects/Remote_Memory/cmake-build-debug/CMakeFiles/Remote_Memory.dir
