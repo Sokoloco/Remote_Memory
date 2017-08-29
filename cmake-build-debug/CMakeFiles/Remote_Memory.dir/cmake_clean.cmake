@@ -1,5 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Remote_Memory.dir/main.cpp.o"
+  "CMakeFiles/Remote_Memory.dir/server.cpp.o"
+  "CMakeFiles/Remote_Memory.dir/Structures/linkedList.cpp.o"
+  "CMakeFiles/Remote_Memory.dir/Structures/node.cpp.o"
   "Remote_Memory.pdb"
   "Remote_Memory"
 )

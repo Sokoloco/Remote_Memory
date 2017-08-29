@@ -4,7 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/luis/CLionProjects/Remote_Memory/Structures/linkedList.cpp" "/home/luis/CLionProjects/Remote_Memory/cmake-build-debug/CMakeFiles/Remote_Memory.dir/Structures/linkedList.cpp.o"
+  "/home/luis/CLionProjects/Remote_Memory/Structures/node.cpp" "/home/luis/CLionProjects/Remote_Memory/cmake-build-debug/CMakeFiles/Remote_Memory.dir/Structures/node.cpp.o"
   "/home/luis/CLionProjects/Remote_Memory/main.cpp" "/home/luis/CLionProjects/Remote_Memory/cmake-build-debug/CMakeFiles/Remote_Memory.dir/main.cpp.o"
+  "/home/luis/CLionProjects/Remote_Memory/server.cpp" "/home/luis/CLionProjects/Remote_Memory/cmake-build-debug/CMakeFiles/Remote_Memory.dir/server.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

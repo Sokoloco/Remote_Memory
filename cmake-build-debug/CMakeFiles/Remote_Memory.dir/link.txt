@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/Remote_Memory.dir/main.cpp.o  -o Remote_Memory 
+/usr/bin/c++  -g   CMakeFiles/Remote_Memory.dir/main.cpp.o CMakeFiles/Remote_Memory.dir/server.cpp.o CMakeFiles/Remote_Memory.dir/Structures/linkedList.cpp.o CMakeFiles/Remote_Memory.dir/Structures/node.cpp.o  -o Remote_Memory 

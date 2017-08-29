@@ -84,7 +84,22 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/luis/CLionProjects/Remote_Memory/Structures/linkedList.cpp">
+			<Option target="Remote_Memory"/>
+		</Unit>
+		<Unit filename="/home/luis/CLionProjects/Remote_Memory/Structures/linkedList.h">
+			<Option target="Remote_Memory"/>
+		</Unit>
+		<Unit filename="/home/luis/CLionProjects/Remote_Memory/Structures/node.cpp">
+			<Option target="Remote_Memory"/>
+		</Unit>
+		<Unit filename="/home/luis/CLionProjects/Remote_Memory/Structures/node.h">
+			<Option target="Remote_Memory"/>
+		</Unit>
 		<Unit filename="/home/luis/CLionProjects/Remote_Memory/main.cpp">
+			<Option target="Remote_Memory"/>
+		</Unit>
+		<Unit filename="/home/luis/CLionProjects/Remote_Memory/server.cpp">
 			<Option target="Remote_Memory"/>
 		</Unit>
 		<Unit filename="/home/luis/CLionProjects/Remote_Memory/CMakeLists.txt">

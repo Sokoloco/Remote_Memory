@@ -81,17 +81,95 @@ CMakeFiles/Remote_Memory.dir/main.cpp.o.provides: CMakeFiles/Remote_Memory.dir/m
 CMakeFiles/Remote_Memory.dir/main.cpp.o.provides.build: CMakeFiles/Remote_Memory.dir/main.cpp.o
 
 
+CMakeFiles/Remote_Memory.dir/server.cpp.o: CMakeFiles/Remote_Memory.dir/flags.make
+CMakeFiles/Remote_Memory.dir/server.cpp.o: ../server.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/CLionProjects/Remote_Memory/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Remote_Memory.dir/server.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Remote_Memory.dir/server.cpp.o -c /home/luis/CLionProjects/Remote_Memory/server.cpp
+
+CMakeFiles/Remote_Memory.dir/server.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Remote_Memory.dir/server.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luis/CLionProjects/Remote_Memory/server.cpp > CMakeFiles/Remote_Memory.dir/server.cpp.i
+
+CMakeFiles/Remote_Memory.dir/server.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Remote_Memory.dir/server.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/CLionProjects/Remote_Memory/server.cpp -o CMakeFiles/Remote_Memory.dir/server.cpp.s
+
+CMakeFiles/Remote_Memory.dir/server.cpp.o.requires:
+
+.PHONY : CMakeFiles/Remote_Memory.dir/server.cpp.o.requires
+
+CMakeFiles/Remote_Memory.dir/server.cpp.o.provides: CMakeFiles/Remote_Memory.dir/server.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Remote_Memory.dir/build.make CMakeFiles/Remote_Memory.dir/server.cpp.o.provides.build
+.PHONY : CMakeFiles/Remote_Memory.dir/server.cpp.o.provides
+
+CMakeFiles/Remote_Memory.dir/server.cpp.o.provides.build: CMakeFiles/Remote_Memory.dir/server.cpp.o
+
+
+CMakeFiles/Remote_Memory.dir/Structures/linkedList.cpp.o: CMakeFiles/Remote_Memory.dir/flags.make
+CMakeFiles/Remote_Memory.dir/Structures/linkedList.cpp.o: ../Structures/linkedList.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/CLionProjects/Remote_Memory/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Remote_Memory.dir/Structures/linkedList.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Remote_Memory.dir/Structures/linkedList.cpp.o -c /home/luis/CLionProjects/Remote_Memory/Structures/linkedList.cpp
+
+CMakeFiles/Remote_Memory.dir/Structures/linkedList.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Remote_Memory.dir/Structures/linkedList.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luis/CLionProjects/Remote_Memory/Structures/linkedList.cpp > CMakeFiles/Remote_Memory.dir/Structures/linkedList.cpp.i
+
+CMakeFiles/Remote_Memory.dir/Structures/linkedList.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Remote_Memory.dir/Structures/linkedList.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/CLionProjects/Remote_Memory/Structures/linkedList.cpp -o CMakeFiles/Remote_Memory.dir/Structures/linkedList.cpp.s
+
+CMakeFiles/Remote_Memory.dir/Structures/linkedList.cpp.o.requires:
+
+.PHONY : CMakeFiles/Remote_Memory.dir/Structures/linkedList.cpp.o.requires
+
+CMakeFiles/Remote_Memory.dir/Structures/linkedList.cpp.o.provides: CMakeFiles/Remote_Memory.dir/Structures/linkedList.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Remote_Memory.dir/build.make CMakeFiles/Remote_Memory.dir/Structures/linkedList.cpp.o.provides.build
+.PHONY : CMakeFiles/Remote_Memory.dir/Structures/linkedList.cpp.o.provides
+
+CMakeFiles/Remote_Memory.dir/Structures/linkedList.cpp.o.provides.build: CMakeFiles/Remote_Memory.dir/Structures/linkedList.cpp.o
+
+
+CMakeFiles/Remote_Memory.dir/Structures/node.cpp.o: CMakeFiles/Remote_Memory.dir/flags.make
+CMakeFiles/Remote_Memory.dir/Structures/node.cpp.o: ../Structures/node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/CLionProjects/Remote_Memory/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Remote_Memory.dir/Structures/node.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Remote_Memory.dir/Structures/node.cpp.o -c /home/luis/CLionProjects/Remote_Memory/Structures/node.cpp
+
+CMakeFiles/Remote_Memory.dir/Structures/node.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Remote_Memory.dir/Structures/node.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luis/CLionProjects/Remote_Memory/Structures/node.cpp > CMakeFiles/Remote_Memory.dir/Structures/node.cpp.i
+
+CMakeFiles/Remote_Memory.dir/Structures/node.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Remote_Memory.dir/Structures/node.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/CLionProjects/Remote_Memory/Structures/node.cpp -o CMakeFiles/Remote_Memory.dir/Structures/node.cpp.s
+
+CMakeFiles/Remote_Memory.dir/Structures/node.cpp.o.requires:
+
+.PHONY : CMakeFiles/Remote_Memory.dir/Structures/node.cpp.o.requires
+
+CMakeFiles/Remote_Memory.dir/Structures/node.cpp.o.provides: CMakeFiles/Remote_Memory.dir/Structures/node.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Remote_Memory.dir/build.make CMakeFiles/Remote_Memory.dir/Structures/node.cpp.o.provides.build
+.PHONY : CMakeFiles/Remote_Memory.dir/Structures/node.cpp.o.provides
+
+CMakeFiles/Remote_Memory.dir/Structures/node.cpp.o.provides.build: CMakeFiles/Remote_Memory.dir/Structures/node.cpp.o
+
+
 # Object files for target Remote_Memory
 Remote_Memory_OBJECTS = \
-"CMakeFiles/Remote_Memory.dir/main.cpp.o"
+"CMakeFiles/Remote_Memory.dir/main.cpp.o" \
+"CMakeFiles/Remote_Memory.dir/server.cpp.o" \
+"CMakeFiles/Remote_Memory.dir/Structures/linkedList.cpp.o" \
+"CMakeFiles/Remote_Memory.dir/Structures/node.cpp.o"
 
 # External object files for target Remote_Memory
 Remote_Memory_EXTERNAL_OBJECTS =
 
 Remote_Memory: CMakeFiles/Remote_Memory.dir/main.cpp.o
+Remote_Memory: CMakeFiles/Remote_Memory.dir/server.cpp.o
+Remote_Memory: CMakeFiles/Remote_Memory.dir/Structures/linkedList.cpp.o
+Remote_Memory: CMakeFiles/Remote_Memory.dir/Structures/node.cpp.o
 Remote_Memory: CMakeFiles/Remote_Memory.dir/build.make
 Remote_Memory: CMakeFiles/Remote_Memory.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/luis/CLionProjects/Remote_Memory/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Remote_Memory"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/luis/CLionProjects/Remote_Memory/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Remote_Memory"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Remote_Memory.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -100,6 +178,9 @@ CMakeFiles/Remote_Memory.dir/build: Remote_Memory
 .PHONY : CMakeFiles/Remote_Memory.dir/build
 
 CMakeFiles/Remote_Memory.dir/requires: CMakeFiles/Remote_Memory.dir/main.cpp.o.requires
+CMakeFiles/Remote_Memory.dir/requires: CMakeFiles/Remote_Memory.dir/server.cpp.o.requires
+CMakeFiles/Remote_Memory.dir/requires: CMakeFiles/Remote_Memory.dir/Structures/linkedList.cpp.o.requires
+CMakeFiles/Remote_Memory.dir/requires: CMakeFiles/Remote_Memory.dir/Structures/node.cpp.o.requires
 
 .PHONY : CMakeFiles/Remote_Memory.dir/requires
 
