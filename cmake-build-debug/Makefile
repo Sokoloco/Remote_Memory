@@ -123,59 +123,86 @@ Remote_Memory/fast:
 	$(MAKE) -f CMakeFiles/Remote_Memory.dir/build.make CMakeFiles/Remote_Memory.dir/build
 .PHONY : Remote_Memory/fast
 
-Structures/linkedList.o: Structures/linkedList.cpp.o
+Servers/Server.o: Servers/Server.cpp.o
 
-.PHONY : Structures/linkedList.o
-
-# target to build an object file
-Structures/linkedList.cpp.o:
-	$(MAKE) -f CMakeFiles/Remote_Memory.dir/build.make CMakeFiles/Remote_Memory.dir/Structures/linkedList.cpp.o
-.PHONY : Structures/linkedList.cpp.o
-
-Structures/linkedList.i: Structures/linkedList.cpp.i
-
-.PHONY : Structures/linkedList.i
-
-# target to preprocess a source file
-Structures/linkedList.cpp.i:
-	$(MAKE) -f CMakeFiles/Remote_Memory.dir/build.make CMakeFiles/Remote_Memory.dir/Structures/linkedList.cpp.i
-.PHONY : Structures/linkedList.cpp.i
-
-Structures/linkedList.s: Structures/linkedList.cpp.s
-
-.PHONY : Structures/linkedList.s
-
-# target to generate assembly for a file
-Structures/linkedList.cpp.s:
-	$(MAKE) -f CMakeFiles/Remote_Memory.dir/build.make CMakeFiles/Remote_Memory.dir/Structures/linkedList.cpp.s
-.PHONY : Structures/linkedList.cpp.s
-
-Structures/node.o: Structures/node.cpp.o
-
-.PHONY : Structures/node.o
+.PHONY : Servers/Server.o
 
 # target to build an object file
-Structures/node.cpp.o:
-	$(MAKE) -f CMakeFiles/Remote_Memory.dir/build.make CMakeFiles/Remote_Memory.dir/Structures/node.cpp.o
-.PHONY : Structures/node.cpp.o
+Servers/Server.cpp.o:
+	$(MAKE) -f CMakeFiles/Remote_Memory.dir/build.make CMakeFiles/Remote_Memory.dir/Servers/Server.cpp.o
+.PHONY : Servers/Server.cpp.o
 
-Structures/node.i: Structures/node.cpp.i
+Servers/Server.i: Servers/Server.cpp.i
 
-.PHONY : Structures/node.i
+.PHONY : Servers/Server.i
 
 # target to preprocess a source file
-Structures/node.cpp.i:
-	$(MAKE) -f CMakeFiles/Remote_Memory.dir/build.make CMakeFiles/Remote_Memory.dir/Structures/node.cpp.i
-.PHONY : Structures/node.cpp.i
+Servers/Server.cpp.i:
+	$(MAKE) -f CMakeFiles/Remote_Memory.dir/build.make CMakeFiles/Remote_Memory.dir/Servers/Server.cpp.i
+.PHONY : Servers/Server.cpp.i
 
-Structures/node.s: Structures/node.cpp.s
+Servers/Server.s: Servers/Server.cpp.s
 
-.PHONY : Structures/node.s
+.PHONY : Servers/Server.s
 
 # target to generate assembly for a file
-Structures/node.cpp.s:
-	$(MAKE) -f CMakeFiles/Remote_Memory.dir/build.make CMakeFiles/Remote_Memory.dir/Structures/node.cpp.s
-.PHONY : Structures/node.cpp.s
+Servers/Server.cpp.s:
+	$(MAKE) -f CMakeFiles/Remote_Memory.dir/build.make CMakeFiles/Remote_Memory.dir/Servers/Server.cpp.s
+.PHONY : Servers/Server.cpp.s
+
+Structures/LinkedList.o: Structures/LinkedList.cpp.o
+
+.PHONY : Structures/LinkedList.o
+
+# target to build an object file
+Structures/LinkedList.cpp.o:
+	$(MAKE) -f CMakeFiles/Remote_Memory.dir/build.make CMakeFiles/Remote_Memory.dir/Structures/LinkedList.cpp.o
+.PHONY : Structures/LinkedList.cpp.o
+
+Structures/LinkedList.i: Structures/LinkedList.cpp.i
+
+.PHONY : Structures/LinkedList.i
+
+# target to preprocess a source file
+Structures/LinkedList.cpp.i:
+	$(MAKE) -f CMakeFiles/Remote_Memory.dir/build.make CMakeFiles/Remote_Memory.dir/Structures/LinkedList.cpp.i
+.PHONY : Structures/LinkedList.cpp.i
+
+Structures/LinkedList.s: Structures/LinkedList.cpp.s
+
+.PHONY : Structures/LinkedList.s
+
+# target to generate assembly for a file
+Structures/LinkedList.cpp.s:
+	$(MAKE) -f CMakeFiles/Remote_Memory.dir/build.make CMakeFiles/Remote_Memory.dir/Structures/LinkedList.cpp.s
+.PHONY : Structures/LinkedList.cpp.s
+
+Structures/Node.o: Structures/Node.cpp.o
+
+.PHONY : Structures/Node.o
+
+# target to build an object file
+Structures/Node.cpp.o:
+	$(MAKE) -f CMakeFiles/Remote_Memory.dir/build.make CMakeFiles/Remote_Memory.dir/Structures/Node.cpp.o
+.PHONY : Structures/Node.cpp.o
+
+Structures/Node.i: Structures/Node.cpp.i
+
+.PHONY : Structures/Node.i
+
+# target to preprocess a source file
+Structures/Node.cpp.i:
+	$(MAKE) -f CMakeFiles/Remote_Memory.dir/build.make CMakeFiles/Remote_Memory.dir/Structures/Node.cpp.i
+.PHONY : Structures/Node.cpp.i
+
+Structures/Node.s: Structures/Node.cpp.s
+
+.PHONY : Structures/Node.s
+
+# target to generate assembly for a file
+Structures/Node.cpp.s:
+	$(MAKE) -f CMakeFiles/Remote_Memory.dir/build.make CMakeFiles/Remote_Memory.dir/Structures/Node.cpp.s
+.PHONY : Structures/Node.cpp.s
 
 main.o: main.cpp.o
 
@@ -240,12 +267,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Remote_Memory"
-	@echo "... Structures/linkedList.o"
-	@echo "... Structures/linkedList.i"
-	@echo "... Structures/linkedList.s"
-	@echo "... Structures/node.o"
-	@echo "... Structures/node.i"
-	@echo "... Structures/node.s"
+	@echo "... Servers/Server.o"
+	@echo "... Servers/Server.i"
+	@echo "... Servers/Server.s"
+	@echo "... Structures/LinkedList.o"
+	@echo "... Structures/LinkedList.i"
+	@echo "... Structures/LinkedList.s"
+	@echo "... Structures/Node.o"
+	@echo "... Structures/Node.i"
+	@echo "... Structures/Node.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

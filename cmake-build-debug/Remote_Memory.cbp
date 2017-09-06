@@ -84,16 +84,22 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/luis/CLionProjects/Remote_Memory/Structures/linkedList.cpp">
+		<Unit filename="/home/luis/CLionProjects/Remote_Memory/Servers/Server.cpp">
 			<Option target="Remote_Memory"/>
 		</Unit>
-		<Unit filename="/home/luis/CLionProjects/Remote_Memory/Structures/linkedList.h">
+		<Unit filename="/home/luis/CLionProjects/Remote_Memory/Servers/Server.h">
 			<Option target="Remote_Memory"/>
 		</Unit>
-		<Unit filename="/home/luis/CLionProjects/Remote_Memory/Structures/node.cpp">
+		<Unit filename="/home/luis/CLionProjects/Remote_Memory/Structures/LinkedList.cpp">
 			<Option target="Remote_Memory"/>
 		</Unit>
-		<Unit filename="/home/luis/CLionProjects/Remote_Memory/Structures/node.h">
+		<Unit filename="/home/luis/CLionProjects/Remote_Memory/Structures/LinkedList.h">
+			<Option target="Remote_Memory"/>
+		</Unit>
+		<Unit filename="/home/luis/CLionProjects/Remote_Memory/Structures/Node.cpp">
+			<Option target="Remote_Memory"/>
+		</Unit>
+		<Unit filename="/home/luis/CLionProjects/Remote_Memory/Structures/Node.h">
 			<Option target="Remote_Memory"/>
 		</Unit>
 		<Unit filename="/home/luis/CLionProjects/Remote_Memory/main.cpp">

@@ -4,8 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/luis/CLionProjects/Remote_Memory/Structures/linkedList.cpp" "/home/luis/CLionProjects/Remote_Memory/cmake-build-debug/CMakeFiles/Remote_Memory.dir/Structures/linkedList.cpp.o"
-  "/home/luis/CLionProjects/Remote_Memory/Structures/node.cpp" "/home/luis/CLionProjects/Remote_Memory/cmake-build-debug/CMakeFiles/Remote_Memory.dir/Structures/node.cpp.o"
+  "/home/luis/CLionProjects/Remote_Memory/Servers/Server.cpp" "/home/luis/CLionProjects/Remote_Memory/cmake-build-debug/CMakeFiles/Remote_Memory.dir/Servers/Server.cpp.o"
+  "/home/luis/CLionProjects/Remote_Memory/Structures/LinkedList.cpp" "/home/luis/CLionProjects/Remote_Memory/cmake-build-debug/CMakeFiles/Remote_Memory.dir/Structures/LinkedList.cpp.o"
+  "/home/luis/CLionProjects/Remote_Memory/Structures/Node.cpp" "/home/luis/CLionProjects/Remote_Memory/cmake-build-debug/CMakeFiles/Remote_Memory.dir/Structures/Node.cpp.o"
   "/home/luis/CLionProjects/Remote_Memory/main.cpp" "/home/luis/CLionProjects/Remote_Memory/cmake-build-debug/CMakeFiles/Remote_Memory.dir/main.cpp.o"
   "/home/luis/CLionProjects/Remote_Memory/server.cpp" "/home/luis/CLionProjects/Remote_Memory/cmake-build-debug/CMakeFiles/Remote_Memory.dir/server.cpp.o"
   )
