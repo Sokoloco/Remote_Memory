@@ -11,10 +11,10 @@ class LinkedList{
 private:
     Node<T>* first;
     Node<T>* last;
+    int size;
 public:
     LinkedList<T>();
     void add(T* data);
-    void add(T data);
     T get(T value);
 };
 

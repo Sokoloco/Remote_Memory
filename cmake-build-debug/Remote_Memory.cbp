@@ -84,6 +84,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/luis/CLionProjects/Remote_Memory/Servers/Client.h">
+			<Option target="Remote_Memory"/>
+		</Unit>
 		<Unit filename="/home/luis/CLionProjects/Remote_Memory/Servers/Server.cpp">
 			<Option target="Remote_Memory"/>
 		</Unit>
@@ -103,6 +106,12 @@
 			<Option target="Remote_Memory"/>
 		</Unit>
 		<Unit filename="/home/luis/CLionProjects/Remote_Memory/main.cpp">
+			<Option target="Remote_Memory"/>
+		</Unit>
+		<Unit filename="/home/luis/CLionProjects/Remote_Memory/rmlib/rmlib.cpp">
+			<Option target="Remote_Memory"/>
+		</Unit>
+		<Unit filename="/home/luis/CLionProjects/Remote_Memory/rmlib/rmlib.h">
 			<Option target="Remote_Memory"/>
 		</Unit>
 		<Unit filename="/home/luis/CLionProjects/Remote_Memory/server.cpp">

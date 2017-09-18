@@ -231,6 +231,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/Remote_Memory.dir/build.make CMakeFiles/Remote_Memory.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+rmlib/rmlib.o: rmlib/rmlib.cpp.o
+
+.PHONY : rmlib/rmlib.o
+
+# target to build an object file
+rmlib/rmlib.cpp.o:
+	$(MAKE) -f CMakeFiles/Remote_Memory.dir/build.make CMakeFiles/Remote_Memory.dir/rmlib/rmlib.cpp.o
+.PHONY : rmlib/rmlib.cpp.o
+
+rmlib/rmlib.i: rmlib/rmlib.cpp.i
+
+.PHONY : rmlib/rmlib.i
+
+# target to preprocess a source file
+rmlib/rmlib.cpp.i:
+	$(MAKE) -f CMakeFiles/Remote_Memory.dir/build.make CMakeFiles/Remote_Memory.dir/rmlib/rmlib.cpp.i
+.PHONY : rmlib/rmlib.cpp.i
+
+rmlib/rmlib.s: rmlib/rmlib.cpp.s
+
+.PHONY : rmlib/rmlib.s
+
+# target to generate assembly for a file
+rmlib/rmlib.cpp.s:
+	$(MAKE) -f CMakeFiles/Remote_Memory.dir/build.make CMakeFiles/Remote_Memory.dir/rmlib/rmlib.cpp.s
+.PHONY : rmlib/rmlib.cpp.s
+
 server.o: server.cpp.o
 
 .PHONY : server.o
@@ -279,6 +306,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... rmlib/rmlib.o"
+	@echo "... rmlib/rmlib.i"
+	@echo "... rmlib/rmlib.s"
 	@echo "... server.o"
 	@echo "... server.i"
 	@echo "... server.s"
