@@ -15,7 +15,7 @@ struct rmRef_h {
 
 class rmlib {
 public:
-    void rm_init (char ip[], int port, char ipHA[], int portHA);
+    void rm_init (char* ip, int port, char* ipHA, int portHA);
     void rm_new (char* key, void* value, int value_size);
     rmRef_h rm_get(char* key);
     void rm_delete(rmRef_h* handler);

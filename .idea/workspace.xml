@@ -12,26 +12,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad1c3a01-063b-45aa-8929-b2384fef4fea" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Servers/Client.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rmlib/rmlib.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rmlib/rmlib.h" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Servers/Client.h" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Servers/Server.cpp" afterPath="$PROJECT_DIR$/Servers/Server.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Servers/Server.h" afterPath="$PROJECT_DIR$/Servers/Server.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Structures/LinkedList.cpp" afterPath="$PROJECT_DIR$/Structures/LinkedList.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Structures/LinkedList.h" afterPath="$PROJECT_DIR$/Structures/LinkedList.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Remote_Memory.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Remote_Memory.dir/DependInfo.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Remote_Memory.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Remote_Memory.dir/build.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Remote_Memory.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Remote_Memory.dir/cmake_clean.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Remote_Memory.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Remote_Memory.dir/depend.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Remote_Memory.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Remote_Memory.dir/link.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Remote_Memory.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Remote_Memory.dir/progress.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Remote_Memory.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/Remote_Memory.cbp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.cpp" afterPath="$PROJECT_DIR$/main.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rmlib/rmlib.cpp" afterPath="$PROJECT_DIR$/rmlib/rmlib.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rmlib/rmlib.h" afterPath="$PROJECT_DIR$/rmlib/rmlib.h" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,10 +35,10 @@
       <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="234">
+              <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
               <folding>
-                <element signature="e#0#19#0" expanded="true" />
+                <element signature="e#1#20#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -58,8 +47,8 @@
       <file leaf-file-name="Server.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Servers/Server.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="33" column="11" lean-forward="false" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
+            <state relative-caret-position="150">
+              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding>
                 <element signature="e#102#129#0" expanded="true" />
               </folding>
@@ -67,35 +56,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Server.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Server.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Servers/Server.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="71" column="41" lean-forward="false" selection-start-line="71" selection-start-column="41" selection-end-line="71" selection-end-column="41" />
+            <state relative-caret-position="1422">
+              <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
               <folding>
                 <element signature="e#39#57#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pthread.h" pinned="false" current-in-tab="false">
-        <entry file="file:///usr/include/pthread.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="232" column="11" lean-forward="false" selection-start-line="232" selection-start-column="11" selection-end-line="232" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Client.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Servers/Client.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="29" column="9" lean-forward="false" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
-              <folding>
-                <element signature="e#103#130#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -117,17 +84,17 @@
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
-              <caret line="8" column="46" lean-forward="false" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+              <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rmlib.cpp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="rmlib.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/rmlib/rmlib.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="230">
+              <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
               <folding>
                 <element signature="e#39#57#0" expanded="true" />
               </folding>
@@ -139,7 +106,7 @@
         <entry file="file://$PROJECT_DIR$/rmlib/rmlib.h">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="168">
-              <caret line="17" column="59" lean-forward="false" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="59" />
+              <caret line="17" column="12" lean-forward="false" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -166,6 +133,10 @@
       <find>buffer</find>
       <find>first</find>
       <find>errn</find>
+      <find>PROJECT_NAME</find>
+      <find>err</find>
+      <find>Server:</find>
+      <find>threadNo</find>
     </findStrings>
     <replaceStrings>
       <replace>class</replace>
@@ -198,13 +169,13 @@
         <option value="$PROJECT_DIR$/Structures/LinkedList.cpp" />
         <option value="$PROJECT_DIR$/Structures/LinkedList.h" />
         <option value="$USER_HOME$/Desktop/test.cpp" />
-        <option value="$PROJECT_DIR$/rmlib/rmlib.h" />
-        <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/Servers/Client.h" />
-        <option value="$PROJECT_DIR$/Servers/Server.h" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/rmlib/rmlib.cpp" />
+        <option value="$PROJECT_DIR$/Servers/Server.h" />
         <option value="$PROJECT_DIR$/Servers/Server.cpp" />
+        <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/rmlib/rmlib.h" />
+        <option value="$PROJECT_DIR$/rmlib/rmlib.cpp" />
       </list>
     </option>
   </component>
@@ -290,8 +261,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Remote_Memory">
-    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+  <component name="RunManager" selected="Application.Build All">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Remote_Memory" TARGET_NAME="Remote_Memory" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Remote_Memory" RUN_TARGET_NAME="Remote_Memory">
       <envs />
     </configuration>
     <configuration name="Remote_Memory" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Remote_Memory" TARGET_NAME="Remote_Memory" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Remote_Memory" RUN_TARGET_NAME="Remote_Memory">
@@ -321,7 +292,7 @@
       <workItem from="1504872833428" duration="13000" />
       <workItem from="1505017327223" duration="38884000" />
       <workItem from="1505533822547" duration="5856000" />
-      <workItem from="1505692770815" duration="14382000" />
+      <workItem from="1505692770815" duration="22747000" />
     </task>
     <task id="LOCAL-00001" summary="Structure update">
       <created>1503989188252</created>
@@ -337,11 +308,18 @@
       <option name="project" value="LOCAL" />
       <updated>1504725995488</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Pthread Update">
+      <created>1505715715251</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1505715715251</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114870000" />
+    <option name="totallyTimeSpent" value="123235000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="397" y="24" width="1327" height="780" extended-state="6" />
@@ -376,18 +354,19 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Structure update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Structure update" />
+    <MESSAGE value="Pthread Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pthread Update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/Servers/Server.cpp</url>
-          <line>70</line>
-          <option name="timeStamp" value="26" />
+          <line>79</line>
+          <option name="timeStamp" value="36" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="28" />
+      <option name="time" value="37" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -411,7 +390,7 @@
         <state relative-caret-position="90">
           <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#1#20#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -489,7 +468,7 @@
         <state relative-caret-position="54">
           <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#1#20#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -553,7 +532,7 @@
         <state relative-caret-position="54">
           <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#1#20#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -577,7 +556,7 @@
         <state relative-caret-position="54">
           <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#1#20#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -601,7 +580,7 @@
         <state relative-caret-position="54">
           <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#1#20#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -678,14 +657,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rmlib/rmlib.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="17" column="59" lean-forward="false" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/include/x86_64-linux-gnu/sys/cdefs.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="158">
@@ -699,16 +670,6 @@
         <state relative-caret-position="140">
           <caret line="232" column="11" lean-forward="false" selection-start-line="232" selection-start-column="11" selection-end-line="232" selection-end-column="11" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Structures/LinkedList.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="e#137#146#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -738,58 +699,74 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Servers/Client.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="41" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
-          <caret line="8" column="46" lean-forward="false" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+          <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Servers/Server.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="33" column="11" lean-forward="false" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
+        <state relative-caret-position="150">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
             <element signature="e#102#129#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Servers/Client.h">
+    <entry file="file://$PROJECT_DIR$/Servers/Server.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="29" column="9" lean-forward="false" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
-          <folding>
-            <element signature="e#103#130#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rmlib/rmlib.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="1422">
+          <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
           <folding>
             <element signature="e#39#57#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
+    <entry file="file://$PROJECT_DIR$/Structures/LinkedList.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="126">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#137#146#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Servers/Server.cpp">
+    <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="71" column="41" lean-forward="false" selection-start-line="71" selection-start-column="41" selection-end-line="71" selection-end-column="41" />
+        <state relative-caret-position="234">
+          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+          <folding>
+            <element signature="e#1#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rmlib/rmlib.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="17" column="12" lean-forward="false" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rmlib/rmlib.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
           <folding>
             <element signature="e#39#57#0" expanded="true" />
           </folding>

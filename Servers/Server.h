@@ -28,7 +28,7 @@ public:
     bool connectClient(int* client);
     void addMem(char *key, void *value, int value_size, int *client);
 
-    bool createSocket(int *server, int port, char *ip, sockaddr_in serv_addr, int threadNo);
+    void createSocket(int *server, int port, char *ip, sockaddr_in serv_addr, int threadNo);
 
 
     static void* acceptR(void *acpt);
