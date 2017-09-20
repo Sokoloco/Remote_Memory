@@ -19,6 +19,8 @@ public:
     void rm_new (char* key, void* value, int value_size);
     rmRef_h rm_get(char* key);
     void rm_delete(rmRef_h* handler);
+
+    void stop();
 };
 
 

@@ -5,7 +5,9 @@
 #ifndef REMOTE_MEMORY_SERVER_H
 #define REMOTE_MEMORY_SERVER_H
 
+
 #include "../rmlib/rmlib.h"
+#include <iostream>
 #include <stdio.h>
 #include <sys/types.h>
 #include <sys/socket.h>
@@ -15,23 +17,19 @@
 #include <cstdlib>
 #include <unistd.h>
 #include <cstring>
-#include <thread>
-#include "Server.h"
 
 class Server {
 private:
-    int mainS, mainP, passiveS, passiveP;
-    char* mainIP, *passiveIP;
-    char buffer[1025];
+    struct srvPrts{
+        int port;
+        char* Ip;
+    };
+
 public:
-    Server(int port, int portHA, char* ip, char* ipHA);
-    bool connectClient(int* client);
-    void addMem(char *key, void *value, int value_size, int *client);
-
-    void createSocket(int *server, int port, char *ip, sockaddr_in serv_addr, int threadNo);
-
-
-    static void* acceptR(void *acpt);
+    Server(char* ip, int port, char* ipHA, int portHA);
+    static void* createMain(void* portnip);
+    void createPass(int portHA, char*ipHa);
+    void newMem(char *key, void *value, int value_size);
 };
 
 

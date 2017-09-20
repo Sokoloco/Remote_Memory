@@ -2,105 +2,91 @@
 // Created by luis on 29/08/17.
 //
 
-#include <stdio.h>
-#include <sys/types.h>
-#include <sys/socket.h>
-#include <netinet/in.h>
-#include <strings.h>
-#include <arpa/inet.h>
-#include <cstdlib>
-#include <unistd.h>
-#include <cstring>
-#include <iostream>
 #include "Server.h"
+#include <thread>
 
-struct sockaddr_in serv_addr1,serv_addr2,cli_addr;
 pthread_t threads[2] = {0};
+int mainP,passiveP;
 
-struct acptStrct{
-    int* serv;
-    socklen_t clen;
-};
-
-Server::Server(int port, int portHA, char* ip, char* ipHA){
-    close(mainS);
-    close(passiveS);
-    mainIP = ip;
+Server::Server(char* ip, int port, char* ipHA, int portHA) {
     mainP = port;
-    passiveIP = ipHA;
     passiveP = portHA;
-    createSocket(&mainS,mainP,mainIP,serv_addr1,0);
-    createSocket(&passiveS,passiveP,passiveIP,serv_addr2,1);
-}
-
-void* Server::acceptR(void* acpt) {
-    acptStrct *go = static_cast<acptStrct *>(acpt);
-    int *server = go->serv;
-    socklen_t clilen = go->clen;
-    //std::cout<<"Server:"<<*server<<" clilen:"<<clilen<<std::endl;
-    int newSocklin = accept(*server, (struct sockaddr *) &cli_addr, &clilen);
-    if (newSocklin < 0) { std::cout << strerror(errno) << std::endl; }
-    rmRef_h message;
-    if (recvfrom(*server, &message, sizeof(rmRef_h),
-                 MSG_PEEK, (struct sockaddr *) &cli_addr, &clilen) > 0) {
-        printf("SRV catched something!\n");
-    }
-}
-
-
-void Server::createSocket(int* server,int port, char* ip,sockaddr_in serv_addr, int threadNo){
-    *server = socket(AF_INET,SOCK_STREAM,0);
-    if(server <0){//std::cout<<"1";
-        return createSocket(server,port,ip,serv_addr,threadNo);}
-    bzero((char *) &serv_addr, sizeof(serv_addr));
-    serv_addr.sin_family = AF_INET;
-    serv_addr.sin_addr.s_addr = inet_addr(ip);
-    serv_addr.sin_port = htons(port);
-    if (bind(*server, (struct sockaddr *) &serv_addr,sizeof(serv_addr)) < 0)
-    {//std::cout<<"2"<<std::endl;
-        return createSocket(server,port,ip,serv_addr,threadNo);}
-    socklen_t clilen = sizeof(cli_addr);
-    if(listen(*server,5)<0){
-        std::cout<<strerror(errno)<<std::endl; return createSocket(server,port,ip,serv_addr,threadNo);
-    }
-
-    acptStrct acpt = {server,clilen};
+    srvPrts acpt = {port,ip};
     void* acpt1 = &acpt;
-
-    //std::cout<<"Server:"<<*server<<" clilen:"<<clilen<<std::endl;
-    //std::cout<<" hello"<<std::endl;
-    pthread_create(&threads[threadNo],NULL,Server::acceptR,acpt1);
-    pthread_detach(threads[threadNo]);
+	std::thread t1(createMain,acpt1);
+    t1.detach();
+    //pthread_create(&threads[0], NULL, Server::createMain, acpt1);
+    //pthread_detach(threads[0]);
 }
 
-void Server::addMem(char *key, void *value, int value_size, int* client) {
-    rmRef_h newMem = {key, value, value_size};
-    //void* msg = &newMem;
-    std::cout<<"tryina send"<<std::endl;
-    if (send(*client, &newMem, sizeof(rmRef_h), 0) < 0) {
-        connectClient(client);
-        addMem(key, value, value_size, client);
+void *Server::createMain(void* portnip) {
+    //struct srvPrts* parts = static_cast<srvPrts *>(portnip);
+    //int port = parts->port;
+    //char* ip = parts->Ip;
+    int MainS, recievingSocket, valread;
+    struct sockaddr_in address;
+    int opt = 1;
+    int addrlen = sizeof(address);
+    char buffer[1024] = {0};
+
+    if ((MainS = socket(AF_INET, SOCK_STREAM, 0)) == 0) {
+        perror("socket failed");
     }
+
+    if (setsockopt(MainS, SOL_SOCKET, SO_REUSEADDR | SO_REUSEPORT,
+                   &opt, sizeof(opt))) {
+        perror("setsockopt");
+    }
+    address.sin_family = AF_INET;
+    address.sin_addr.s_addr = inet_addr("127.0.0.1");
+    address.sin_port = htons(2015);
+
+    if (bind(MainS, (struct sockaddr *)&address,
+             sizeof(address))<0) {
+        perror("bind failed");
+    }
+    if (listen(MainS, 3) < 0) {
+        perror("listen");
+    }
+    if ((recievingSocket = accept(MainS, (struct sockaddr *)&address,
+                                  (socklen_t*)&addrlen))<0) {
+        perror("accept");
+    }
+    valread = read( recievingSocket , buffer, 1024);
+    std::cout<<buffer<<std::endl;
+    return nullptr;
+}
+
+void Server::createPass(int portHA, char *ipHa) {
+    passiveP = portHA;
+}
+
+void Server::newMem(char *key, void *value, int value_size) {
+    struct sockaddr_in address;
+    int clientS, valread;
+    char helo[30] = "Hello from client";
+    char *hello = helo;
+    struct sockaddr_in serv_addr;
+    if ((clientS = socket(AF_INET, SOCK_STREAM, 0)) < 0) {
+        printf("\n Socket creation error \n");
+    }
+
+    memset(&serv_addr, '0', sizeof(serv_addr));
+
+    serv_addr.sin_family = AF_INET;
+    serv_addr.sin_port = htons(mainP);
+
+    // Convert IPv4 and IPv6 addresses from text to binary form
+    if(inet_pton(AF_INET, "127.0.0.1", &serv_addr.sin_addr)<=0) {
+        newMem(key,value,value_size);
+    }
+
+    if (connect(clientS, (struct sockaddr *)&serv_addr, sizeof(serv_addr)) < 0)
+    {
+        printf("\nConnection Failed \n");
+    }
+    send(clientS, hello, strlen(hello), 0);
 
 
 }
 
-bool Server::connectClient(int *client) {
-    *client = socket(AF_INET, SOCK_STREAM, 0);
-    if (*client < 0){
-        return false;
-    }
-    cli_addr.sin_family = AF_INET;
-    cli_addr.sin_port = htons(mainP);
-    if (connect(*client,(struct sockaddr *)&cli_addr, sizeof(cli_addr)) == 0){
-        std::cout<<"first client works"<<std::endl;
-        return true;
-    }
-    cli_addr.sin_port = htons(passiveP);
-    if (connect(*client,(struct sockaddr *)&cli_addr, sizeof(cli_addr)) == 0){
-        std::cout<<"second client works"<<std::endl;
-        return true;
-    }
-    close(*client);
-    return false;
-}
