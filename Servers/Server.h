@@ -8,7 +8,6 @@
 
 #include "../rmlib/rmlib.h"
 #include <iostream>
-#include <stdio.h>
 #include <sys/types.h>
 #include <sys/socket.h>
 #include <netinet/in.h>
@@ -30,6 +29,8 @@ public:
     static void* createMain(void* portnip);
     void createPass(int portHA, char*ipHa);
     void newMem(char *key, void *value, int value_size);
+    void delMem(char *key);
+    void getMem(char *key);
 };
 
 

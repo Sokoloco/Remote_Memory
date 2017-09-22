@@ -15,7 +15,10 @@ private:
 public:
     LinkedList<T>();
     void add(T* data);
-    T get(T value);
+
+    void remove(T data);
+
+    Node<T> *search(T value);
 };
 
 

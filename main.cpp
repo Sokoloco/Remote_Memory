@@ -8,7 +8,7 @@ using namespace std;
 
 int main(int argc, char *argv[]){
     char ip[10]= "127.0.0.1",ip2[10] = "127.0.0.2", key1[3] = "yo";
-    int test = 1;
+    int test = 894;
     void* testnum = &test;
     char* ipptr = ip;
     char* ipPtr2 = ip2;
