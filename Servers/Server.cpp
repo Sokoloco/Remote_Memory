@@ -90,12 +90,14 @@ void Server::newMem(char *key, void *value, int value_size) {
     char temp[4] = "1";
     std::string s = std::to_string(value_size);
     char const *pchar = s.c_str();
+    *msg = "1";
     strcat(msg,temp);
     strcat(msg,pchar);
     char space[4]="'";
     strcat(msg,space);
     strcat(msg,key);
     strcat(msg,space);
+    std::cout<<msg[0]<<std::endl;
     std::cout<<msg<<std::endl;
     char *hello = msg;
     struct sockaddr_in serv_addr;

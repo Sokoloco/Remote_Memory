@@ -61,4 +61,3 @@ template <class T>
         }
         return NULL;
     }
-}
